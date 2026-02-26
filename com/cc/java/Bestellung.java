@@ -37,7 +37,14 @@ public static void main(String[] args) {
                 break;
         }
 
-         System.out.println(food);
+        //System.out.println(food);
+
+        // Entscheidung Getränk dazu?
+        System.out.println("-------------------------------");
+        System.out.println("Möchten Sie ein Getränk dazu bestellen? (j/n)");
+        flag = System.console().readLine("(j/n)? :");
+        System.out.println(flag);
+
 
 
     
